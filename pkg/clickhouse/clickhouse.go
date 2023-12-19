@@ -8,7 +8,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
-	"github.com/MaXal/clickhouse-backup/pkg/common"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/common"
 	"github.com/antchfx/xmlquery"
 	"os"
 	"path"
@@ -19,8 +19,8 @@ import (
 	"time"
 
 	"github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/MaXal/clickhouse-backup/pkg/config"
-	"github.com/MaXal/clickhouse-backup/pkg/metadata"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/config"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/metadata"
 	apexLog "github.com/apex/log"
 )
 

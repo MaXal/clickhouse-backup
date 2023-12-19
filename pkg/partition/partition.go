@@ -3,9 +3,9 @@ package partition
 import (
 	"context"
 	"fmt"
-	"github.com/MaXal/clickhouse-backup/pkg/clickhouse"
-	"github.com/MaXal/clickhouse-backup/pkg/common"
-	"github.com/MaXal/clickhouse-backup/pkg/metadata"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/clickhouse"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/common"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/metadata"
 	apexLog "github.com/apex/log"
 	"github.com/google/uuid"
 	"github.com/pkg/errors"

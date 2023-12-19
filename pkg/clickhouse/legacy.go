@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/MaXal/clickhouse-backup/pkg/metadata"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/metadata"
 )
 
 // GetBackupTablesLegacy - return list of backups of tables that can be restored

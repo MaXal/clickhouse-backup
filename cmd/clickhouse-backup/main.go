@@ -6,12 +6,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/MaXal/clickhouse-backup/pkg/config"
-	"github.com/MaXal/clickhouse-backup/pkg/logcli"
-	"github.com/MaXal/clickhouse-backup/pkg/status"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/config"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/logcli"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/status"
 
-	"github.com/MaXal/clickhouse-backup/pkg/backup"
-	"github.com/MaXal/clickhouse-backup/pkg/server"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/backup"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/server"
 
 	"github.com/apex/log"
 	"github.com/urfave/cli"

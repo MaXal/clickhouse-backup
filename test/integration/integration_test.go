@@ -5,11 +5,11 @@ package main
 import (
 	"context"
 	"fmt"
-	"github.com/MaXal/clickhouse-backup/pkg/config"
-	"github.com/MaXal/clickhouse-backup/pkg/logcli"
-	"github.com/MaXal/clickhouse-backup/pkg/partition"
-	"github.com/MaXal/clickhouse-backup/pkg/status"
-	"github.com/MaXal/clickhouse-backup/pkg/utils"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/config"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/logcli"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/partition"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/status"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/utils"
 	"github.com/google/uuid"
 	"math/rand"
 	"os"
@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/MaXal/clickhouse-backup/pkg/clickhouse"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/clickhouse"
 	"github.com/apex/log"
 	"golang.org/x/mod/semver"
 

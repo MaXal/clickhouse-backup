@@ -2,7 +2,7 @@ package filesystemhelper
 
 import (
 	"fmt"
-	"github.com/MaXal/clickhouse-backup/pkg/utils"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/utils"
 	"net/url"
 	"os"
 	"path"
@@ -12,9 +12,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/MaXal/clickhouse-backup/pkg/clickhouse"
-	"github.com/MaXal/clickhouse-backup/pkg/common"
-	"github.com/MaXal/clickhouse-backup/pkg/metadata"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/clickhouse"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/common"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/metadata"
 	apexLog "github.com/apex/log"
 )
 

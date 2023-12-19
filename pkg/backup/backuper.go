@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/MaXal/clickhouse-backup/pkg/clickhouse"
-	"github.com/MaXal/clickhouse-backup/pkg/config"
-	"github.com/MaXal/clickhouse-backup/pkg/resumable"
-	"github.com/MaXal/clickhouse-backup/pkg/storage"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/clickhouse"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/config"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/resumable"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/storage"
 
 	apexLog "github.com/apex/log"
 )

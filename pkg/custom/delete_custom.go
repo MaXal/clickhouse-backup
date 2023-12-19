@@ -3,8 +3,8 @@ package custom
 import (
 	"context"
 	"fmt"
-	"github.com/MaXal/clickhouse-backup/pkg/config"
-	"github.com/MaXal/clickhouse-backup/pkg/utils"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/config"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/utils"
 	"github.com/apex/log"
 	"time"
 )

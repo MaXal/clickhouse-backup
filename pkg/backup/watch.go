@@ -3,9 +3,9 @@ package backup
 import (
 	"context"
 	"fmt"
-	"github.com/MaXal/clickhouse-backup/pkg/config"
-	"github.com/MaXal/clickhouse-backup/pkg/server/metrics"
-	"github.com/MaXal/clickhouse-backup/pkg/status"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/config"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/server/metrics"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/status"
 	apexLog "github.com/apex/log"
 	"github.com/urfave/cli"
 	"regexp"

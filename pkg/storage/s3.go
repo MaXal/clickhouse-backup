@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/MaXal/clickhouse-backup/pkg/config"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/config"
 	apexLog "github.com/apex/log"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"

@@ -2,7 +2,7 @@ package logfmt_test
 
 import (
 	"bytes"
-	"github.com/MaXal/clickhouse-backup/pkg/logfmt"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/logfmt"
 	"io"
 	"testing"
 	"time"

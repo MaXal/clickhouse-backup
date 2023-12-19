@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/MaXal/clickhouse-backup/pkg/clickhouse"
-	"github.com/MaXal/clickhouse-backup/pkg/config"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/clickhouse"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/config"
 )
 
 type testVersioner struct {

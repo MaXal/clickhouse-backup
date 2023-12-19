@@ -11,12 +11,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/MaXal/clickhouse-backup/pkg/clickhouse"
-	"github.com/MaXal/clickhouse-backup/pkg/custom"
-	"github.com/MaXal/clickhouse-backup/pkg/metadata"
-	"github.com/MaXal/clickhouse-backup/pkg/status"
-	"github.com/MaXal/clickhouse-backup/pkg/storage"
-	"github.com/MaXal/clickhouse-backup/pkg/utils"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/clickhouse"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/custom"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/metadata"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/status"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/storage"
+	"github.com/MaXal/clickhouse-backup/v2/pkg/utils"
 
 	apexLog "github.com/apex/log"
 )
