@@ -15,19 +15,19 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/Altinity/clickhouse-backup/pkg/clickhouse"
-	"github.com/Altinity/clickhouse-backup/pkg/custom"
-	"github.com/Altinity/clickhouse-backup/pkg/resumable"
-	"github.com/Altinity/clickhouse-backup/pkg/status"
-	"github.com/Altinity/clickhouse-backup/pkg/storage"
+	"github.com/MaXal/clickhouse-backup/pkg/clickhouse"
+	"github.com/MaXal/clickhouse-backup/pkg/custom"
+	"github.com/MaXal/clickhouse-backup/pkg/resumable"
+	"github.com/MaXal/clickhouse-backup/pkg/status"
+	"github.com/MaXal/clickhouse-backup/pkg/storage"
 	"github.com/eapache/go-resiliency/retrier"
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/Altinity/clickhouse-backup/pkg/common"
-	"github.com/Altinity/clickhouse-backup/pkg/filesystemhelper"
-	"github.com/Altinity/clickhouse-backup/pkg/metadata"
-	"github.com/Altinity/clickhouse-backup/pkg/utils"
+	"github.com/MaXal/clickhouse-backup/pkg/common"
+	"github.com/MaXal/clickhouse-backup/pkg/filesystemhelper"
+	"github.com/MaXal/clickhouse-backup/pkg/metadata"
+	"github.com/MaXal/clickhouse-backup/pkg/utils"
 	apexLog "github.com/apex/log"
 	"github.com/yargevad/filepathx"
 )

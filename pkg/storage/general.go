@@ -5,10 +5,10 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/Altinity/clickhouse-backup/pkg/clickhouse"
-	"github.com/Altinity/clickhouse-backup/pkg/config"
-	"github.com/Altinity/clickhouse-backup/pkg/progressbar"
-	"github.com/Altinity/clickhouse-backup/pkg/utils"
+	"github.com/MaXal/clickhouse-backup/pkg/clickhouse"
+	"github.com/MaXal/clickhouse-backup/pkg/config"
+	"github.com/MaXal/clickhouse-backup/pkg/progressbar"
+	"github.com/MaXal/clickhouse-backup/pkg/utils"
 	"github.com/eapache/go-resiliency/retrier"
 	"io"
 	"os"
@@ -19,7 +19,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Altinity/clickhouse-backup/pkg/metadata"
+	"github.com/MaXal/clickhouse-backup/pkg/metadata"
 	"golang.org/x/sync/errgroup"
 
 	apexLog "github.com/apex/log"

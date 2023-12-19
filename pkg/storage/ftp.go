@@ -4,7 +4,7 @@ import (
 	"context"
 	"crypto/tls"
 	"fmt"
-	"github.com/Altinity/clickhouse-backup/pkg/config"
+	"github.com/MaXal/clickhouse-backup/pkg/config"
 	apexLog "github.com/apex/log"
 	"io"
 	"os"

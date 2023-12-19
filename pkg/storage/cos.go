@@ -3,7 +3,7 @@ package storage
 import (
 	"context"
 	"fmt"
-	"github.com/Altinity/clickhouse-backup/pkg/config"
+	"github.com/MaXal/clickhouse-backup/pkg/config"
 	"io"
 	"net/http"
 	"net/url"

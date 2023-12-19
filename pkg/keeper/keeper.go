@@ -5,7 +5,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/Altinity/clickhouse-backup/pkg/config"
+	"github.com/MaXal/clickhouse-backup/pkg/config"
 	"github.com/antchfx/xmlquery"
 	"github.com/apex/log"
 	"os"
@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Altinity/clickhouse-backup/pkg/clickhouse"
+	"github.com/MaXal/clickhouse-backup/pkg/clickhouse"
 	"github.com/go-zookeeper/zk"
 )
 

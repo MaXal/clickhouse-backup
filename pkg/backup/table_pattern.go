@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/Altinity/clickhouse-backup/pkg/config"
-	"github.com/Altinity/clickhouse-backup/pkg/partition"
+	"github.com/MaXal/clickhouse-backup/pkg/config"
+	"github.com/MaXal/clickhouse-backup/pkg/partition"
 	apexLog "github.com/apex/log"
 	"github.com/google/uuid"
 	"io"
@@ -17,10 +17,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Altinity/clickhouse-backup/pkg/common"
-	"github.com/Altinity/clickhouse-backup/pkg/filesystemhelper"
+	"github.com/MaXal/clickhouse-backup/pkg/common"
+	"github.com/MaXal/clickhouse-backup/pkg/filesystemhelper"
 
-	"github.com/Altinity/clickhouse-backup/pkg/metadata"
+	"github.com/MaXal/clickhouse-backup/pkg/metadata"
 )
 
 type ListOfTables []metadata.TableMetadata

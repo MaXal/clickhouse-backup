@@ -11,12 +11,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Altinity/clickhouse-backup/pkg/clickhouse"
-	"github.com/Altinity/clickhouse-backup/pkg/custom"
-	"github.com/Altinity/clickhouse-backup/pkg/status"
-	"github.com/Altinity/clickhouse-backup/pkg/storage"
-	"github.com/Altinity/clickhouse-backup/pkg/storage/object_disk"
-	"github.com/Altinity/clickhouse-backup/pkg/utils"
+	"github.com/MaXal/clickhouse-backup/pkg/clickhouse"
+	"github.com/MaXal/clickhouse-backup/pkg/custom"
+	"github.com/MaXal/clickhouse-backup/pkg/status"
+	"github.com/MaXal/clickhouse-backup/pkg/storage"
+	"github.com/MaXal/clickhouse-backup/pkg/storage/object_disk"
+	"github.com/MaXal/clickhouse-backup/pkg/utils"
 
 	apexLog "github.com/apex/log"
 	"github.com/pkg/errors"

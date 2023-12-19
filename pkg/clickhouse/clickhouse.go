@@ -7,8 +7,8 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
-	"github.com/Altinity/clickhouse-backup/pkg/common"
 	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
+	"github.com/MaXal/clickhouse-backup/pkg/common"
 	"github.com/antchfx/xmlquery"
 	"os"
 	"path"
@@ -18,9 +18,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Altinity/clickhouse-backup/pkg/config"
-	"github.com/Altinity/clickhouse-backup/pkg/metadata"
 	"github.com/ClickHouse/clickhouse-go/v2"
+	"github.com/MaXal/clickhouse-backup/pkg/config"
+	"github.com/MaXal/clickhouse-backup/pkg/metadata"
 	apexLog "github.com/apex/log"
 )
 
