@@ -1,4 +1,4 @@
-module github.com/MaXal/clickhouse-backup
+module github.com/MaXal/clickhouse-backup/v2
 
 require (
 	cloud.google.com/go/storage v1.35.1
